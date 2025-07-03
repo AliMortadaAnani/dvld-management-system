@@ -1,4 +1,4 @@
-# DVLD - Drivers and Vehicles License Department
+# DVLD - Drivers and Vehicles Licenses Department
 
 ## 🛠 Technology Stack
 
@@ -31,7 +31,6 @@ This is a **3-tier architecture** project with an additional shared/general laye
   * Enums
   * `config.ini` settings
   * Shared types
-  * Asset storage (`RememberMe.txt`, user images)
 
 ## 📁 Folder Structure
 
@@ -39,10 +38,6 @@ This is a **3-tier architecture** project with an additional shared/general laye
 * `/DVLD_Business` – Business operations and classes
 * `/DVLD_Data` – SQL operations using ADO.NET
 * `/DVLD_DataTypes` (aka `DVLD_General`)
-
-  * `Assets/RememberMe.txt` – Stores "Remember Me" data
-  * `Assets/AppImages/` – Stores person images by GUID
-  * `config.ini` – Central configuration file
 
 ## ⚙️ Setup Instructions
 
@@ -68,11 +63,22 @@ This is a **3-tier architecture** project with an additional shared/general laye
    * The paths are project-relative, so they will work out of the box
    * The connection string uses Windows Authentication (`Trusted_Connection=True`), which works for most systems with local SQL Server installed
 
-3. **Run the Application**
+3. 🚀 **Run the Application**
 
-   * Open the solution file `DVLD.sln` inside DVLD_Presentation folder in Visual Studio 2022+
-   * Build and run the project
-   * All required files (`RememberMe.txt`, image folder, config) are included in the project
+ **Steps to Launch**
+1. Open the solution file `DVLD.sln` inside **DVLD_Presentation** folder in Visual Studio 2022+
+2. Build and run the project
+3. Use the following login credentials:
+
+### 🔐 Login Credentials
+- **Username:** `Ali`
+- **Password:** `0000`
+
+### 📁 Included Files
+All required files are included in the project:
+- `RememberMe.txt`
+- Image folder
+- Configuration files
 
 ## 📝 Notes for Developers
 
