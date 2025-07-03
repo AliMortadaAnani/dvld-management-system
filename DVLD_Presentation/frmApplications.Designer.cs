@@ -309,7 +309,7 @@
             // kryptonButton4
             // 
             kryptonButton4.Cursor = Cursors.Hand;
-            kryptonButton4.Location = new Point(809, 363);
+            kryptonButton4.Location = new Point(809, 387);
             kryptonButton4.Name = "kryptonButton4";
             kryptonButton4.OverrideDefault.Back.Color1 = Color.Silver;
             kryptonButton4.OverrideDefault.Border.Rounding = 50F;
